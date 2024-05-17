@@ -1,0 +1,9 @@
+F:\Projects.Net\DVLD - Driving License Management\DVLD-Buisness\bin\Debug\DVLD-Buisness.dll
+F:\Projects.Net\DVLD - Driving License Management\DVLD-Buisness\bin\Debug\DVLD-Buisness.pdb
+F:\Projects.Net\DVLD - Driving License Management\DVLD-Buisness\obj\Debug\DVLD-Buisness.csproj.AssemblyReference.cache
+F:\Projects.Net\DVLD - Driving License Management\DVLD-Buisness\obj\Debug\DVLD-Buisness.csproj.CoreCompileInputs.cache
+F:\Projects.Net\DVLD - Driving License Management\DVLD-Buisness\obj\Debug\DVLD-Buisness.dll
+F:\Projects.Net\DVLD - Driving License Management\DVLD-Buisness\obj\Debug\DVLD-Buisness.pdb
+F:\Projects.Net\DVLD - Driving License Management\DVLD-Buisness\bin\Debug\DVLD-DataAccess.dll
+F:\Projects.Net\DVLD - Driving License Management\DVLD-Buisness\bin\Debug\DVLD-DataAccess.pdb
+F:\Projects.Net\DVLD - Driving License Management\DVLD-Buisness\obj\Debug\DVLD-Buisness.csproj.CopyComplete
