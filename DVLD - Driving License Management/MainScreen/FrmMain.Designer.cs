@@ -52,6 +52,7 @@
             this.BtnMinimize = new Guna.UI2.WinForms.Guna2Button();
             this.BtnExit = new Guna.UI2.WinForms.Guna2Button();
             this.PanelMain = new System.Windows.Forms.Panel();
+            this.ctrlDashboard1 = new DVLD___Driving_License_Management.MainScreen.CtrlDashboard();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
@@ -61,6 +62,7 @@
             this.panel2.SuspendLayout();
             this.PanelUser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBUser)).BeginInit();
+            this.PanelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -210,6 +212,7 @@
             this.BtnApplications.Size = new System.Drawing.Size(249, 57);
             this.BtnApplications.TabIndex = 7;
             this.BtnApplications.Text = "Applications";
+            this.BtnApplications.Click += new System.EventHandler(this.BtnApplications_Click);
             // 
             // BtnDashboard
             // 
@@ -228,7 +231,7 @@
             this.BtnDashboard.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.BtnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnDashboard.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
-            this.BtnDashboard.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnDashboard.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.BtnDashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
             this.BtnDashboard.Location = new System.Drawing.Point(0, 213);
             this.BtnDashboard.Name = "BtnDashboard";
@@ -453,11 +456,21 @@
             // PanelMain
             // 
             this.PanelMain.BackColor = System.Drawing.Color.White;
+            this.PanelMain.Controls.Add(this.ctrlDashboard1);
             this.PanelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PanelMain.Location = new System.Drawing.Point(249, 126);
             this.PanelMain.Name = "PanelMain";
             this.PanelMain.Size = new System.Drawing.Size(1451, 874);
             this.PanelMain.TabIndex = 2;
+            // 
+            // ctrlDashboard1
+            // 
+            this.ctrlDashboard1.BackColor = System.Drawing.Color.White;
+            this.ctrlDashboard1.Location = new System.Drawing.Point(0, 0);
+            this.ctrlDashboard1.Name = "ctrlDashboard1";
+            this.ctrlDashboard1.Size = new System.Drawing.Size(1430, 900);
+            this.ctrlDashboard1.TabIndex = 0;
+            this.ctrlDashboard1.BtnClicked += new System.Action<bool>(this.ctrlDashboard1_BtnClicked);
             // 
             // guna2Elipse1
             // 
@@ -488,6 +501,7 @@
             this.PanelUser.ResumeLayout(false);
             this.PanelUser.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBUser)).EndInit();
+            this.PanelMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -518,5 +532,6 @@
         private System.Windows.Forms.Timer timer1;
         private Guna.UI2.WinForms.Guna2Button BtnLogout;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
+        private MainScreen.CtrlDashboard ctrlDashboard1;
     }
 }

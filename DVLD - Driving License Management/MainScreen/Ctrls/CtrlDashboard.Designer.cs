@@ -38,7 +38,7 @@
             this.lblNumberOfPeople = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.lblTextDisplay = new System.Windows.Forms.Label();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.BtnApplyNow = new Guna.UI2.WinForms.Guna2GradientButton();
             this.PictureBox2Apply = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblname = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.PanelLicense = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -157,7 +157,7 @@
             // 
             this.guna2GradientPanel1.BorderRadius = 20;
             this.guna2GradientPanel1.Controls.Add(this.lblTextDisplay);
-            this.guna2GradientPanel1.Controls.Add(this.guna2GradientButton1);
+            this.guna2GradientPanel1.Controls.Add(this.BtnApplyNow);
             this.guna2GradientPanel1.Controls.Add(this.PictureBox2Apply);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
@@ -178,30 +178,31 @@
             this.lblTextDisplay.Text = "Get a driver\'s license or renew a driver\'s license\r\nand get a replacement \r\nfor a" +
     " damaged or lost one.\r\n\r\n";
             // 
-            // guna2GradientButton1
+            // BtnApplyNow
             // 
-            this.guna2GradientButton1.Animated = true;
-            this.guna2GradientButton1.AutoRoundedCorners = true;
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.BorderColor = System.Drawing.Color.OrangeRed;
-            this.guna2GradientButton1.BorderRadius = 22;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(141)))), ((int)(((byte)(218)))));
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(238)))), ((int)(((byte)(221)))));
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Yu Gothic UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(78, 213);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(162, 47);
-            this.guna2GradientButton1.TabIndex = 9;
-            this.guna2GradientButton1.Text = "Apply Now!";
-            this.guna2GradientButton1.UseTransparentBackground = true;
+            this.BtnApplyNow.Animated = true;
+            this.BtnApplyNow.AutoRoundedCorners = true;
+            this.BtnApplyNow.BackColor = System.Drawing.Color.Transparent;
+            this.BtnApplyNow.BorderColor = System.Drawing.Color.OrangeRed;
+            this.BtnApplyNow.BorderRadius = 22;
+            this.BtnApplyNow.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BtnApplyNow.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnApplyNow.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnApplyNow.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnApplyNow.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnApplyNow.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(141)))), ((int)(((byte)(218)))));
+            this.BtnApplyNow.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(238)))), ((int)(((byte)(221)))));
+            this.BtnApplyNow.Font = new System.Drawing.Font("Yu Gothic UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnApplyNow.ForeColor = System.Drawing.Color.Transparent;
+            this.BtnApplyNow.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
+            this.BtnApplyNow.Location = new System.Drawing.Point(78, 213);
+            this.BtnApplyNow.Name = "BtnApplyNow";
+            this.BtnApplyNow.PressedColor = System.Drawing.Color.DodgerBlue;
+            this.BtnApplyNow.Size = new System.Drawing.Size(162, 47);
+            this.BtnApplyNow.TabIndex = 9;
+            this.BtnApplyNow.Text = "Apply Now!";
+            this.BtnApplyNow.UseTransparentBackground = true;
+            this.BtnApplyNow.Click += new System.EventHandler(this.BtnApplyNow_Click);
             // 
             // PictureBox2Apply
             // 
@@ -290,7 +291,6 @@
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "CtrlDashboard";
             this.Size = new System.Drawing.Size(1430, 900);
-            this.Load += new System.EventHandler(this.CtrlDashboard_Load);
             this.PanelDrivers.ResumeLayout(false);
             this.PanelDrivers.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxDrivers)).EndInit();
@@ -318,7 +318,7 @@
         private System.Windows.Forms.Label lblNumberOfPeople;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.Label lblTextDisplay;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton BtnApplyNow;
         private Guna.UI2.WinForms.Guna2PictureBox PictureBox2Apply;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblname;
         private Guna.UI2.WinForms.Guna2GradientPanel PanelLicense;

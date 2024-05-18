@@ -9,7 +9,6 @@ F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Managem
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD - Driving License Management.pdb
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\Guna.UI2.dll
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD - Driving License Management.csproj.CopyComplete
-F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\FontAwesome.Sharp.dll
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\DVLD-Buisness.dll
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\DVLD-Buisness.pdb
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\DVLD-DataAccess.dll
@@ -19,8 +18,6 @@ F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Managem
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.People.Controls.CtrlPersonWithFilter.resources
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.People.FrmFindPerson.resources
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.People.FrmShowPerson.resources
-F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\Bunifu.Licensing.dll
-F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\Bunifu.UI.WinForms.dll
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\Newtonsoft.Json.dll
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\RestSharp.dll
@@ -33,7 +30,6 @@ F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Managem
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\System.Text.Json.dll
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\System.Threading.Tasks.Extensions.dll
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\System.ValueTuple.dll
-F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\Bunifu.UI.WinForms.xml
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\Newtonsoft.Json.xml
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\bin\Debug\RestSharp.xml
@@ -49,3 +45,4 @@ F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Managem
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.People.Controls.CtrlListPeople.resources
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.MainScreen.CtrlDashboard.resources
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.FrmMain.resources
+F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.Applications.Ctrls.CtrlMainApplication.resources

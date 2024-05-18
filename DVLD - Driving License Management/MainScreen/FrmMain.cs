@@ -1,4 +1,5 @@
-﻿using DVLD___Driving_License_Management.MainScreen;
+﻿using DVLD___Driving_License_Management.Applications.Ctrls;
+using DVLD___Driving_License_Management.MainScreen;
 using DVLD___Driving_License_Management.People.Controls;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,9 @@ namespace DVLD___Driving_License_Management
 {
     public partial class FrmMain : Form
     {
+        private CtrlListPeople ctrlListPeople = new CtrlListPeople();
+        private CtrlMainApplication ctrlMainApplication = new CtrlMainApplication();
+       
         public FrmMain()
         {
             InitializeComponent();
@@ -30,14 +34,12 @@ namespace DVLD___Driving_License_Management
 
         private void BtnPeople_Click(object sender, EventArgs e)
         {
-            CtrlListPeople ctrlListPeople = new CtrlListPeople();
-              AddCtrl(ctrlListPeople);
+            AddCtrl(ctrlListPeople);
         }
 
         private void BtnDashboard_Click(object sender, EventArgs e)
         {
-            CtrlDashboard ctrlDashboard = new CtrlDashboard();
-            AddCtrl(ctrlDashboard);
+            AddCtrl(ctrlDashboard1);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -45,8 +47,6 @@ namespace DVLD___Driving_License_Management
             LblTime.Text = DateTime.Now.ToShortTimeString();
             LblDate.Text = DateTime.Now.ToShortDateString();
             LblDay.Text = DateTime.Now.DayOfWeek.ToString();
-            CtrlDashboard ctrlDashboard = new CtrlDashboard();
-            AddCtrl(ctrlDashboard);
         }
 
         private void BtnExit_Click(object sender, EventArgs e)
@@ -59,9 +59,17 @@ namespace DVLD___Driving_License_Management
             this.WindowState = FormWindowState.Minimized;
         }
 
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        // 
-        //}
+        private void BtnApplications_Click(object sender, EventArgs e)
+        {
+            AddCtrl(ctrlMainApplication);
+        }
+
+        private void ctrlDashboard1_BtnClicked(bool obj)
+        {
+            if (obj)
+            {
+                AddCtrl(ctrlMainApplication);
+            }
+        }
     }
 }
