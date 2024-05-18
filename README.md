@@ -92,7 +92,7 @@ Booking, reason for booking, and booking date.
 
 • Authentication: Custom user authentication system.
 
-• Architecture: 3-tier architecture.
+• Architecture: 3-Tier architecture.
 
 • Deployment: Standalone desktop application
 
