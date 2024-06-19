@@ -64,19 +64,19 @@ Driving License Management System is a desktop application designed for efficien
 
 • The tests are fixed in the system, with the possibility of modification.
 
-Its prices only.
+• Its prices only.
 
 ### 5- Management Of Licenses Categories :
 
 • License categories are fixed in the system, with the ability to adjust the age and duration.
 
-The registration and licensing fees.
+• The registration and licensing fees.
 
 ### 6- Driving License Detention :
 
 • This feature allows for booking licenses, specifying the license number, and determining the associated fine.
 
-Booking, reason for booking, and booking date.
+• Booking, reason for booking, and booking date.
 
 #### Note :
 
@@ -92,7 +92,7 @@ Booking, reason for booking, and booking date.
 
 • Authentication: Custom user authentication system.
 
-• Architecture: 3-tier architecture.
+• Architecture: 3-Tier architecture.
 
 • Deployment: Standalone desktop application
 
