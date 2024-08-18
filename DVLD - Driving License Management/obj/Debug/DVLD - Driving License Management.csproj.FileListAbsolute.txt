@@ -46,3 +46,9 @@ F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Managem
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.MainScreen.CtrlDashboard.resources
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.FrmMain.resources
 F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.Applications.Ctrls.CtrlMainApplication.resources
+F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.User.FrmAddUpdateUser.resources
+F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.Form1.resources
+F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.User.FrmUserInfo.resources
+F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.User.UserCtrls.CtrlUserCard.resources
+F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.User.FrmChangePassword.resources
+F:\Projects.Net\DVLD - Driving License Management\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.User.UserCtrls.CtrlUsersList.resources
