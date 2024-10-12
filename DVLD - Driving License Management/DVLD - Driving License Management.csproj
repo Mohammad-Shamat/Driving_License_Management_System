@@ -354,5 +354,8 @@
   <ItemGroup>
     <None Include="Resources\right-chevron- %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset-password.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,9 +13,9 @@ namespace DVLD___Driving_License_Management.User
 {
     public partial class FrmChangePassword : Form
     {
-        private short _UserID;
+        private int _UserID;
         private ClsUsers _User;
-        public FrmChangePassword(short UserID)
+        public FrmChangePassword(int UserID)
         {
             InitializeComponent();
             _UserID = UserID;

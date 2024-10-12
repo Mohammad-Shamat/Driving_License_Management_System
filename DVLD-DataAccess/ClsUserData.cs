@@ -200,9 +200,11 @@ namespace DVLD_DataAccess
         {
             DataTable DTAllUsers = new DataTable();
             SqlConnection conn = new SqlConnection(ClsDataAccessSettings.ConnectionDataBase);
-            string Query = @"select users.UserID,users.UserName,users.PersonID,users.IsActive,
-                             FullName=People.FirstName+' '+People.SecondName+' '+ISNULL( People.ThirdName,'')+' '+People.LastName from users
-                             inner join People on People.PersonID =Users.PersonID";
+            string Query = @"SELECT  Users.UserID, Users.PersonID,
+                            FullName = People.FirstName + ' ' + People.SecondName + ' ' + ISNULL( People.ThirdName,'') +' ' + People.LastName,
+                             Users.UserName, Users.IsActive
+                             FROM  Users INNER JOIN
+                                    People ON Users.PersonID = People.PersonID";
 
             SqlCommand cmd = new SqlCommand(Query, conn);
             try

@@ -483,6 +483,16 @@ namespace DVLD___Driving_License_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap reset_password {
+            get {
+                object obj = ResourceManager.GetObject("reset-password", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap resume {
             get {
                 object obj = ResourceManager.GetObject("resume", resourceCulture);

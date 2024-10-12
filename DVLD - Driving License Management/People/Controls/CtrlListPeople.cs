@@ -14,17 +14,14 @@ namespace DVLD___Driving_License_Management.People.Controls
     public partial class CtrlListPeople : UserControl
     {
         private static DataTable _DataTableAllPeople = ClsPerson.GetAllPeople();
-        private DataTable _DataTablePeopleCopy = _DataTableAllPeople.DefaultView.ToTable(false, "PersonID", "NationalNo",
-                                                       "FirstName", "SecondName", "ThirdName", "LastName",
-                                                       "GendorCaption", "DateOfBirth", "CountryName",
-                                                       "Phone", "Email");
+        private DataTable _DataTablePeopleCopy;
         public CtrlListPeople()
         {
             InitializeComponent();
         }
         private void _RefreshPeopleList()
         {
-            _DataTableAllPeople = ClsPerson.GetAllPeople();
+            
             _DataTablePeopleCopy = _DataTableAllPeople.DefaultView.ToTable(false, "PersonID", "NationalNo",
                                                        "FirstName", "SecondName", "ThirdName", "LastName",
                                                        "GendorCaption", "DateOfBirth", "CountryName",

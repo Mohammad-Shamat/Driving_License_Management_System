@@ -19,19 +19,10 @@ namespace DVLD___Driving_License_Management
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            textBox1.PasswordChar = '*';
-            label1.Text = textBox1.Text;
-            guna2Button1.Image = Resources.Female_1;
-        }
+       
 
         
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            textBox1.PasswordChar = '\0';
-            guna2Button1.Image = Resources.app;
-        }
+        
     }
 }

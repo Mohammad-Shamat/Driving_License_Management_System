@@ -133,6 +133,7 @@
             this.BtnUsers.Size = new System.Drawing.Size(249, 57);
             this.BtnUsers.TabIndex = 10;
             this.BtnUsers.Text = "Users";
+            this.BtnUsers.Click += new System.EventHandler(this.BtnUsers_Click);
             // 
             // BtnDrivers
             // 

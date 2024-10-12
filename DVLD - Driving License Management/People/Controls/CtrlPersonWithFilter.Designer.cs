@@ -152,8 +152,8 @@
             this.CbFilterBy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.CbFilterBy.ItemHeight = 30;
             this.CbFilterBy.Items.AddRange(new object[] {
-            "Person ID",
-            "National No."});
+            "National No.",
+            "Person ID"});
             this.CbFilterBy.ItemsAppearance.Font = new System.Drawing.Font("Yu Gothic UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CbFilterBy.ItemsAppearance.ForeColor = System.Drawing.SystemColors.ControlText;
             this.CbFilterBy.Location = new System.Drawing.Point(115, 29);

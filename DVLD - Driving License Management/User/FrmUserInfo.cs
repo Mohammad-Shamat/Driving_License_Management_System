@@ -12,8 +12,8 @@ namespace DVLD___Driving_License_Management.User
 {
     public partial class FrmUserInfo : Form
     {
-        private short _UserID;
-        public FrmUserInfo(short UserID)
+        private int _UserID;
+        public FrmUserInfo(int UserID)
         {
             InitializeComponent();
             _UserID = UserID;

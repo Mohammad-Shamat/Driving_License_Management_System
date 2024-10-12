@@ -1,6 +1,7 @@
 ﻿using DVLD___Driving_License_Management.Applications.Ctrls;
 using DVLD___Driving_License_Management.MainScreen;
 using DVLD___Driving_License_Management.People.Controls;
+using DVLD___Driving_License_Management.User.UserCtrls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,7 +18,7 @@ namespace DVLD___Driving_License_Management
     {
         private CtrlListPeople ctrlListPeople = new CtrlListPeople();
         private CtrlMainApplication ctrlMainApplication = new CtrlMainApplication();
-       
+        private CtrlUsersList ctrlUsersList = new CtrlUsersList();
         public FrmMain()
         {
             InitializeComponent();
@@ -70,6 +71,11 @@ namespace DVLD___Driving_License_Management
             {
                 AddCtrl(ctrlMainApplication);
             }
+        }
+
+        private void BtnUsers_Click(object sender, EventArgs e)
+        {
+            AddCtrl(ctrlUsersList);
         }
     }
 }

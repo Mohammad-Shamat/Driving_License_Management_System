@@ -36,6 +36,7 @@ namespace DVLD___Driving_License_Management.User
             {
                 LblTitle.Text = "Add New User";
                 this.Text = "Add New User";
+                _User = new ClsUsers();
                 TPLoginInfo.Enabled = false;
                 ctrlPersonWithFilter1.FilterFocus();
             }
