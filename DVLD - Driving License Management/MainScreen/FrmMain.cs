@@ -1,4 +1,6 @@
 ﻿using DVLD___Driving_License_Management.Applications.Ctrls;
+using DVLD___Driving_License_Management.Global_Classes;
+using DVLD___Driving_License_Management.Login;
 using DVLD___Driving_License_Management.MainScreen;
 using DVLD___Driving_License_Management.People.Controls;
 using DVLD___Driving_License_Management.User.UserCtrls;
@@ -16,13 +18,15 @@ namespace DVLD___Driving_License_Management
 {
     public partial class FrmMain : Form
     {
+        private FrmLogin _frmlogin;
         private CtrlListPeople ctrlListPeople = new CtrlListPeople();
         private CtrlMainApplication ctrlMainApplication = new CtrlMainApplication();
         private CtrlUsersList ctrlUsersList = new CtrlUsersList();
-        public FrmMain()
+        public FrmMain(FrmLogin frmlogin)
         {
             InitializeComponent();
             timer1.Start();
+            _frmlogin= frmlogin;
         }
         private void AddCtrl(UserControl ctrl)
         {
@@ -76,6 +80,13 @@ namespace DVLD___Driving_License_Management
         private void BtnUsers_Click(object sender, EventArgs e)
         {
             AddCtrl(ctrlUsersList);
+        }
+
+        private void BtnLogout_Click(object sender, EventArgs e)
+        {
+            clsGlobal.CurrentUser = null;   
+            _frmlogin.Show();
+            this.Close();
         }
     }
 }

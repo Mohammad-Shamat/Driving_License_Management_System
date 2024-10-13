@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DVLD_Buisness;
+using System;
 using System.IO;
 using System.Windows.Forms;
 
@@ -8,7 +9,7 @@ namespace DVLD___Driving_License_Management.Global_Classes
 {
     internal static class clsGlobal
     {
-        //public static ClsUser CurrentUser;
+        public static ClsUsers CurrentUser;
 
         public static bool RememberUsernameAndPassword(string Username, string Password)
         {

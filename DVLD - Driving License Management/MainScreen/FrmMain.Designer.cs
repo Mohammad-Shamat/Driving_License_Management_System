@@ -107,6 +107,7 @@
             this.BtnLogout.Size = new System.Drawing.Size(249, 57);
             this.BtnLogout.TabIndex = 11;
             this.BtnLogout.Text = "Logout";
+            this.BtnLogout.Click += new System.EventHandler(this.BtnLogout_Click);
             // 
             // BtnUsers
             // 
