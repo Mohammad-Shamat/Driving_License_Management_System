@@ -291,6 +291,7 @@
             this.Controls.Add(this.guna2GradientPanel1);
             this.Name = "CtrlDashboard";
             this.Size = new System.Drawing.Size(1430, 900);
+            this.Load += new System.EventHandler(this.CtrlDashboard_Load_1);
             this.PanelDrivers.ResumeLayout(false);
             this.PanelDrivers.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxDrivers)).EndInit();

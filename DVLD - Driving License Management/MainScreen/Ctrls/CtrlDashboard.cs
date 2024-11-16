@@ -1,4 +1,6 @@
 ﻿using DVLD___Driving_License_Management.Applications.Ctrls;
+using DVLD___Driving_License_Management.Global_Classes;
+using DVLD_Buisness;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,6 +18,7 @@ namespace DVLD___Driving_License_Management.MainScreen
     {
         private bool _showApp = false;
         public event Action<bool> BtnClicked;
+        private static DataTable _DataTableAllPeople = ClsPerson.GetAllPeople();
         protected virtual void ApplyBtnClicked(bool IsClicked)
         {
             Action<bool> handler = BtnClicked;
@@ -36,6 +39,26 @@ namespace DVLD___Driving_License_Management.MainScreen
             if (BtnClicked != null && _showApp)
             {
                 ApplyBtnClicked(_showApp);
+            }
+        }
+
+        private void CtrlDashboard_Load(object sender, EventArgs e)
+        {
+           
+           
+        }
+
+        private void CtrlDashboard_Load_1(object sender, EventArgs e)
+        {
+            if (clsGlobal.CurrentUser != null)
+            {
+                lblname.Text = "Welcome Back, " + clsGlobal.CurrentUser.PersonInfo.FirstName + " !";
+                lblNumberOfPeople.Text = _DataTableAllPeople.Rows.Count.ToString();
+            }
+            else
+            {
+                lblname.Text = "No User";
+                lblNumberOfPeople.Text = "0";
             }
         }
     }

@@ -3,6 +3,7 @@ using DVLD___Driving_License_Management.Global_Classes;
 using DVLD___Driving_License_Management.Login;
 using DVLD___Driving_License_Management.MainScreen;
 using DVLD___Driving_License_Management.People.Controls;
+using DVLD___Driving_License_Management.User;
 using DVLD___Driving_License_Management.User.UserCtrls;
 using System;
 using System.Collections.Generic;
@@ -52,11 +53,14 @@ namespace DVLD___Driving_License_Management
             LblTime.Text = DateTime.Now.ToShortTimeString();
             LblDate.Text = DateTime.Now.ToShortDateString();
             LblDay.Text = DateTime.Now.DayOfWeek.ToString();
+            lblNameUser.Text = clsGlobal.CurrentUser.PersonInfo.FirstName;
+            lblUser.Text = clsGlobal.CurrentUser.UserName;
+            PBUser.ImageLocation=clsGlobal.CurrentUser.PersonInfo.ImagePath;
         }
 
         private void BtnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void BtnMinimize_Click(object sender, EventArgs e)
@@ -87,6 +91,12 @@ namespace DVLD___Driving_License_Management
             clsGlobal.CurrentUser = null;   
             _frmlogin.Show();
             this.Close();
+        }
+
+        private void BtnUserSetting_Click(object sender, EventArgs e)
+        {
+            Form FrmUserSettings = new FrmUserSetting();
+            FrmUserSettings.ShowDialog();
         }
     }
 }

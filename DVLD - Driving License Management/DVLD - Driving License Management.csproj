@@ -183,6 +183,12 @@
     <Compile Include="User\FrmUserInfo.Designer.cs">
       <DependentUpon>FrmUserInfo.cs</DependentUpon>
     </Compile>
+    <Compile Include="User\FrmUserSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User\FrmUserSetting.Designer.cs">
+      <DependentUpon>FrmUserSetting.cs</DependentUpon>
+    </Compile>
     <Compile Include="User\UserCtrls\CtrlUserCard.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -209,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User\FrmUserInfo.resx">
       <DependentUpon>FrmUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\FrmUserSetting.resx">
+      <DependentUpon>FrmUserSetting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\UserCtrls\CtrlUserCard.resx">
       <DependentUpon>CtrlUserCard.cs</DependentUpon>
@@ -374,6 +383,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\padlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

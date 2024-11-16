@@ -107,3 +107,4 @@ C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Dr
 C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Driving License Management\bin\Debug\DVLD-DataAccess.pdb
 C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Driving License Management\obj\Debug\DVLD - Driving License Management.csproj.CopyComplete
 C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.Login.FrmLogin.resources
+C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.User.FrmUserSetting.resources

@@ -51,10 +51,14 @@
             this.PBUser = new Guna.UI2.WinForms.Guna2PictureBox();
             this.BtnMinimize = new Guna.UI2.WinForms.Guna2Button();
             this.BtnExit = new Guna.UI2.WinForms.Guna2Button();
+            this.CmsPeople = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PanelMain = new System.Windows.Forms.Panel();
-            this.ctrlDashboard1 = new DVLD___Driving_License_Management.MainScreen.CtrlDashboard();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.ctrlDashboard1 = new DVLD___Driving_License_Management.MainScreen.CtrlDashboard();
             this.panel1.SuspendLayout();
             this.PanelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
@@ -62,6 +66,7 @@
             this.panel2.SuspendLayout();
             this.PanelUser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBUser)).BeginInit();
+            this.CmsPeople.SuspendLayout();
             this.PanelMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,7 +94,7 @@
             this.BtnLogout.BorderColor = System.Drawing.Color.DodgerBlue;
             this.BtnLogout.BorderRadius = 27;
             this.BtnLogout.CustomBorderColor = System.Drawing.Color.White;
-            this.BtnLogout.CustomImages.Image = global::DVLD___Driving_License_Management.Properties.Resources.logout;
+            this.BtnLogout.CustomImages.Image = global::DVLD___Driving_License_Management.Properties.Resources.logout__1_;
             this.BtnLogout.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.BtnLogout.CustomImages.ImageOffset = new System.Drawing.Point(15, 0);
             this.BtnLogout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -361,6 +366,7 @@
             this.BtnUserSetting.Size = new System.Drawing.Size(26, 30);
             this.BtnUserSetting.TabIndex = 0;
             this.BtnUserSetting.UseTransparentBackground = true;
+            this.BtnUserSetting.Click += new System.EventHandler(this.BtnUserSetting_Click);
             // 
             // lblUser
             // 
@@ -455,6 +461,49 @@
             this.BtnExit.TabIndex = 5;
             this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
+            // CmsPeople
+            // 
+            this.CmsPeople.AllowDrop = true;
+            this.CmsPeople.BackColor = System.Drawing.Color.White;
+            this.CmsPeople.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CmsPeople.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.showDetailsToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.editToolStripMenuItem});
+            this.CmsPeople.Name = "CmsPeople";
+            this.CmsPeople.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.CmsPeople.RenderStyle.BorderColor = System.Drawing.Color.Transparent;
+            this.CmsPeople.RenderStyle.ColorTable = null;
+            this.CmsPeople.RenderStyle.RoundedEdges = true;
+            this.CmsPeople.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
+            this.CmsPeople.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(178)))), ((int)(((byte)(191)))));
+            this.CmsPeople.RenderStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.CmsPeople.RenderStyle.SeparatorColor = System.Drawing.Color.OrangeRed;
+            this.CmsPeople.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.CmsPeople.Size = new System.Drawing.Size(171, 82);
+            // 
+            // showDetailsToolStripMenuItem
+            // 
+            this.showDetailsToolStripMenuItem.Image = global::DVLD___Driving_License_Management.Properties.Resources.form;
+            this.showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
+            this.showDetailsToolStripMenuItem.ShortcutKeyDisplayString = "";
+            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.showDetailsToolStripMenuItem.Text = "Show Details";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Image = global::DVLD___Driving_License_Management.Properties.Resources.resume;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(170, 26);
+            this.toolStripMenuItem1.Text = "Edit";
+            // 
+            // editToolStripMenuItem
+            // 
+            this.editToolStripMenuItem.Image = global::DVLD___Driving_License_Management.Properties.Resources.delete;
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.editToolStripMenuItem.Text = "Delete";
+            // 
             // PanelMain
             // 
             this.PanelMain.BackColor = System.Drawing.Color.White;
@@ -465,6 +514,11 @@
             this.PanelMain.Size = new System.Drawing.Size(1451, 874);
             this.PanelMain.TabIndex = 2;
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 12;
+            this.guna2Elipse1.TargetControl = this;
+            // 
             // ctrlDashboard1
             // 
             this.ctrlDashboard1.BackColor = System.Drawing.Color.White;
@@ -473,11 +527,6 @@
             this.ctrlDashboard1.Size = new System.Drawing.Size(1430, 900);
             this.ctrlDashboard1.TabIndex = 0;
             this.ctrlDashboard1.BtnClicked += new System.Action<bool>(this.ctrlDashboard1_BtnClicked);
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 12;
-            this.guna2Elipse1.TargetControl = this;
             // 
             // FrmMain
             // 
@@ -503,6 +552,7 @@
             this.PanelUser.ResumeLayout(false);
             this.PanelUser.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PBUser)).EndInit();
+            this.CmsPeople.ResumeLayout(false);
             this.PanelMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -535,5 +585,9 @@
         private Guna.UI2.WinForms.Guna2Button BtnLogout;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private MainScreen.CtrlDashboard ctrlDashboard1;
+        private Guna.UI2.WinForms.Guna2ContextMenuStrip CmsPeople;
+        private System.Windows.Forms.ToolStripMenuItem showDetailsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
     }
 }
