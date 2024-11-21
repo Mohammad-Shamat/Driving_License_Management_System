@@ -20,6 +20,7 @@ namespace DVLD___Driving_License_Management
     public partial class FrmMain : Form
     {
         private FrmLogin _frmlogin;
+        private Form FrmUserSettings = new FrmUserSetting();
         private CtrlListPeople ctrlListPeople = new CtrlListPeople();
         private CtrlMainApplication ctrlMainApplication = new CtrlMainApplication();
         private CtrlUsersList ctrlUsersList = new CtrlUsersList();
@@ -95,7 +96,7 @@ namespace DVLD___Driving_License_Management
 
         private void BtnUserSetting_Click(object sender, EventArgs e)
         {
-            Form FrmUserSettings = new FrmUserSetting();
+            
             FrmUserSettings.ShowDialog();
         }
     }
