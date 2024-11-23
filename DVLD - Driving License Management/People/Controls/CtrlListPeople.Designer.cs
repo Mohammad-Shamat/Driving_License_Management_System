@@ -132,15 +132,14 @@
             this.DGVPeople.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.DGVPeople.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.DGVPeople.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None;
             this.DGVPeople.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.DGVPeople.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
+            this.DGVPeople.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Sienna;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.DGVPeople.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.DGVPeople.ColumnHeadersHeight = 55;
@@ -153,7 +152,6 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.DGVPeople.DefaultCellStyle = dataGridViewCellStyle3;
-            this.DGVPeople.EnableHeadersVisualStyles = true;
             this.DGVPeople.GridColor = System.Drawing.Color.White;
             this.DGVPeople.Location = new System.Drawing.Point(13, 217);
             this.DGVPeople.MultiSelect = false;
@@ -180,7 +178,7 @@
             this.DGVPeople.ThemeStyle.BackColor = System.Drawing.Color.White;
             this.DGVPeople.ThemeStyle.GridColor = System.Drawing.Color.White;
             this.DGVPeople.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.Sienna;
-            this.DGVPeople.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
+            this.DGVPeople.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.DGVPeople.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DGVPeople.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.Bisque;
             this.DGVPeople.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -205,6 +203,7 @@
             this.toolStripMenuItem1,
             this.editToolStripMenuItem});
             this.CmsPeople.Name = "CmsPeople";
+            this.CmsPeople.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.CmsPeople.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.CmsPeople.RenderStyle.BorderColor = System.Drawing.Color.Transparent;
             this.CmsPeople.RenderStyle.ColorTable = null;
@@ -214,14 +213,14 @@
             this.CmsPeople.RenderStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.CmsPeople.RenderStyle.SeparatorColor = System.Drawing.Color.OrangeRed;
             this.CmsPeople.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.CmsPeople.Size = new System.Drawing.Size(171, 82);
+            this.CmsPeople.Size = new System.Drawing.Size(181, 104);
             // 
             // showDetailsToolStripMenuItem
             // 
             this.showDetailsToolStripMenuItem.Image = global::DVLD___Driving_License_Management.Properties.Resources.form;
             this.showDetailsToolStripMenuItem.Name = "showDetailsToolStripMenuItem";
             this.showDetailsToolStripMenuItem.ShortcutKeyDisplayString = "";
-            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.showDetailsToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.showDetailsToolStripMenuItem.Text = "Show Details";
             this.showDetailsToolStripMenuItem.Click += new System.EventHandler(this.showDetailsToolStripMenuItem_Click);
             // 
@@ -229,7 +228,7 @@
             // 
             this.toolStripMenuItem1.Image = global::DVLD___Driving_License_Management.Properties.Resources.resume;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(170, 26);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
             this.toolStripMenuItem1.Text = "Edit";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -237,7 +236,7 @@
             // 
             this.editToolStripMenuItem.Image = global::DVLD___Driving_License_Management.Properties.Resources.delete;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(170, 26);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.editToolStripMenuItem.Text = "Delete";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
@@ -270,6 +269,7 @@
             this.TxtFilterValue.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtFilterValue.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TxtFilterValue.Location = new System.Drawing.Point(316, 175);
+            this.TxtFilterValue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtFilterValue.Name = "TxtFilterValue";
             this.TxtFilterValue.PasswordChar = '\0';
             this.TxtFilterValue.PlaceholderText = "";

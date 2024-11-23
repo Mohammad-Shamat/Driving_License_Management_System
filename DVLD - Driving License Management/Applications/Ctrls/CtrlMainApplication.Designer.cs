@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.GBDrivingLicensesSer = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.BtnLiLocal = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.BtnInterLi = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.BtnRenewDL = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.BtnRekeaseDetaDriLic = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.BtnRepOrDam = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BtnRetakeTest = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.BtnRepOrDam = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.BtnRekeaseDetaDriLic = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.BtnRenewDL = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.BtnInterLi = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.BtnLiLocal = new Guna.UI2.WinForms.Guna2GradientButton();
             this.GBManageApp = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.BtnLocalDrivingLicApp = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BtnInterDrivingLicApp = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.BtnLocalDrivingLicApp = new Guna.UI2.WinForms.Guna2GradientButton();
             this.GBDetainLicenses = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.BtnDetainLicese = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BtnReleaseDetainedLic = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BtnManageDetained = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.BtnDetainLicese = new Guna.UI2.WinForms.Guna2GradientButton();
             this.GBGeneralManager = new Guna.UI2.WinForms.Guna2GroupBox();
             this.BtnManageTestTypes = new Guna.UI2.WinForms.Guna2GradientButton();
             this.BtnManageApp = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -70,93 +70,27 @@
             this.GBDrivingLicensesSer.Text = "Driving Licenses Services";
             this.GBDrivingLicensesSer.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // BtnLiLocal
+            // BtnRetakeTest
             // 
-            this.BtnLiLocal.Animated = true;
-            this.BtnLiLocal.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnLiLocal.BorderRadius = 12;
-            this.BtnLiLocal.BorderThickness = 3;
-            this.BtnLiLocal.DisabledState.BorderColor = System.Drawing.Color.Transparent;
-            this.BtnLiLocal.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnLiLocal.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnLiLocal.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnLiLocal.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnLiLocal.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.BtnLiLocal.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
-            this.BtnLiLocal.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnLiLocal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnLiLocal.Location = new System.Drawing.Point(37, 85);
-            this.BtnLiLocal.Name = "BtnLiLocal";
-            this.BtnLiLocal.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.BtnLiLocal.Size = new System.Drawing.Size(210, 45);
-            this.BtnLiLocal.TabIndex = 0;
-            this.BtnLiLocal.Text = "New Local License";
-            // 
-            // BtnInterLi
-            // 
-            this.BtnInterLi.Animated = true;
-            this.BtnInterLi.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnInterLi.BorderRadius = 12;
-            this.BtnInterLi.BorderThickness = 3;
-            this.BtnInterLi.DisabledState.BorderColor = System.Drawing.Color.Transparent;
-            this.BtnInterLi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnInterLi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnInterLi.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnInterLi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnInterLi.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.BtnInterLi.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
-            this.BtnInterLi.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnInterLi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnInterLi.Location = new System.Drawing.Point(313, 85);
-            this.BtnInterLi.Name = "BtnInterLi";
-            this.BtnInterLi.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.BtnInterLi.Size = new System.Drawing.Size(210, 45);
-            this.BtnInterLi.TabIndex = 1;
-            this.BtnInterLi.Text = "New International License";
-            // 
-            // BtnRenewDL
-            // 
-            this.BtnRenewDL.Animated = true;
-            this.BtnRenewDL.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnRenewDL.BorderRadius = 12;
-            this.BtnRenewDL.BorderThickness = 3;
-            this.BtnRenewDL.DisabledState.BorderColor = System.Drawing.Color.Transparent;
-            this.BtnRenewDL.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnRenewDL.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnRenewDL.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnRenewDL.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnRenewDL.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.BtnRenewDL.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
-            this.BtnRenewDL.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnRenewDL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnRenewDL.Location = new System.Drawing.Point(37, 167);
-            this.BtnRenewDL.Name = "BtnRenewDL";
-            this.BtnRenewDL.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.BtnRenewDL.Size = new System.Drawing.Size(210, 45);
-            this.BtnRenewDL.TabIndex = 2;
-            this.BtnRenewDL.Text = "Renew Driving License";
-            // 
-            // BtnRekeaseDetaDriLic
-            // 
-            this.BtnRekeaseDetaDriLic.Animated = true;
-            this.BtnRekeaseDetaDriLic.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnRekeaseDetaDriLic.BorderRadius = 12;
-            this.BtnRekeaseDetaDriLic.BorderThickness = 3;
-            this.BtnRekeaseDetaDriLic.DisabledState.BorderColor = System.Drawing.Color.Transparent;
-            this.BtnRekeaseDetaDriLic.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnRekeaseDetaDriLic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnRekeaseDetaDriLic.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnRekeaseDetaDriLic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnRekeaseDetaDriLic.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.BtnRekeaseDetaDriLic.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
-            this.BtnRekeaseDetaDriLic.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnRekeaseDetaDriLic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnRekeaseDetaDriLic.Location = new System.Drawing.Point(37, 249);
-            this.BtnRekeaseDetaDriLic.Name = "BtnRekeaseDetaDriLic";
-            this.BtnRekeaseDetaDriLic.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.BtnRekeaseDetaDriLic.Size = new System.Drawing.Size(210, 45);
-            this.BtnRekeaseDetaDriLic.TabIndex = 3;
-            this.BtnRekeaseDetaDriLic.Text = "Release Detained Driving License";
+            this.BtnRetakeTest.Animated = true;
+            this.BtnRetakeTest.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnRetakeTest.BorderRadius = 12;
+            this.BtnRetakeTest.BorderThickness = 3;
+            this.BtnRetakeTest.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.BtnRetakeTest.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnRetakeTest.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnRetakeTest.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnRetakeTest.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnRetakeTest.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.BtnRetakeTest.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.BtnRetakeTest.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnRetakeTest.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnRetakeTest.Location = new System.Drawing.Point(313, 249);
+            this.BtnRetakeTest.Name = "BtnRetakeTest";
+            this.BtnRetakeTest.PressedColor = System.Drawing.Color.DodgerBlue;
+            this.BtnRetakeTest.Size = new System.Drawing.Size(210, 45);
+            this.BtnRetakeTest.TabIndex = 5;
+            this.BtnRetakeTest.Text = "Retake Test";
             // 
             // BtnRepOrDam
             // 
@@ -180,27 +114,93 @@
             this.BtnRepOrDam.TabIndex = 4;
             this.BtnRepOrDam.Text = "Replacement for Lost or Damaged License";
             // 
-            // BtnRetakeTest
+            // BtnRekeaseDetaDriLic
             // 
-            this.BtnRetakeTest.Animated = true;
-            this.BtnRetakeTest.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnRetakeTest.BorderRadius = 12;
-            this.BtnRetakeTest.BorderThickness = 3;
-            this.BtnRetakeTest.DisabledState.BorderColor = System.Drawing.Color.Transparent;
-            this.BtnRetakeTest.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnRetakeTest.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnRetakeTest.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnRetakeTest.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnRetakeTest.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.BtnRetakeTest.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
-            this.BtnRetakeTest.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnRetakeTest.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnRetakeTest.Location = new System.Drawing.Point(313, 249);
-            this.BtnRetakeTest.Name = "BtnRetakeTest";
-            this.BtnRetakeTest.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.BtnRetakeTest.Size = new System.Drawing.Size(210, 45);
-            this.BtnRetakeTest.TabIndex = 5;
-            this.BtnRetakeTest.Text = "Retake Test";
+            this.BtnRekeaseDetaDriLic.Animated = true;
+            this.BtnRekeaseDetaDriLic.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnRekeaseDetaDriLic.BorderRadius = 12;
+            this.BtnRekeaseDetaDriLic.BorderThickness = 3;
+            this.BtnRekeaseDetaDriLic.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.BtnRekeaseDetaDriLic.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnRekeaseDetaDriLic.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnRekeaseDetaDriLic.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnRekeaseDetaDriLic.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnRekeaseDetaDriLic.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.BtnRekeaseDetaDriLic.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.BtnRekeaseDetaDriLic.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnRekeaseDetaDriLic.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnRekeaseDetaDriLic.Location = new System.Drawing.Point(37, 249);
+            this.BtnRekeaseDetaDriLic.Name = "BtnRekeaseDetaDriLic";
+            this.BtnRekeaseDetaDriLic.PressedColor = System.Drawing.Color.DodgerBlue;
+            this.BtnRekeaseDetaDriLic.Size = new System.Drawing.Size(210, 45);
+            this.BtnRekeaseDetaDriLic.TabIndex = 3;
+            this.BtnRekeaseDetaDriLic.Text = "Release Detained Driving License";
+            // 
+            // BtnRenewDL
+            // 
+            this.BtnRenewDL.Animated = true;
+            this.BtnRenewDL.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnRenewDL.BorderRadius = 12;
+            this.BtnRenewDL.BorderThickness = 3;
+            this.BtnRenewDL.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.BtnRenewDL.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnRenewDL.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnRenewDL.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnRenewDL.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnRenewDL.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.BtnRenewDL.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.BtnRenewDL.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnRenewDL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnRenewDL.Location = new System.Drawing.Point(37, 167);
+            this.BtnRenewDL.Name = "BtnRenewDL";
+            this.BtnRenewDL.PressedColor = System.Drawing.Color.DodgerBlue;
+            this.BtnRenewDL.Size = new System.Drawing.Size(210, 45);
+            this.BtnRenewDL.TabIndex = 2;
+            this.BtnRenewDL.Text = "Renew Driving License";
+            // 
+            // BtnInterLi
+            // 
+            this.BtnInterLi.Animated = true;
+            this.BtnInterLi.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnInterLi.BorderRadius = 12;
+            this.BtnInterLi.BorderThickness = 3;
+            this.BtnInterLi.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.BtnInterLi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnInterLi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnInterLi.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnInterLi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnInterLi.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.BtnInterLi.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.BtnInterLi.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnInterLi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnInterLi.Location = new System.Drawing.Point(313, 85);
+            this.BtnInterLi.Name = "BtnInterLi";
+            this.BtnInterLi.PressedColor = System.Drawing.Color.DodgerBlue;
+            this.BtnInterLi.Size = new System.Drawing.Size(210, 45);
+            this.BtnInterLi.TabIndex = 1;
+            this.BtnInterLi.Text = "New International License";
+            // 
+            // BtnLiLocal
+            // 
+            this.BtnLiLocal.Animated = true;
+            this.BtnLiLocal.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnLiLocal.BorderRadius = 12;
+            this.BtnLiLocal.BorderThickness = 3;
+            this.BtnLiLocal.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.BtnLiLocal.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnLiLocal.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnLiLocal.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnLiLocal.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnLiLocal.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.BtnLiLocal.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.BtnLiLocal.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnLiLocal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnLiLocal.Location = new System.Drawing.Point(37, 85);
+            this.BtnLiLocal.Name = "BtnLiLocal";
+            this.BtnLiLocal.PressedColor = System.Drawing.Color.DodgerBlue;
+            this.BtnLiLocal.Size = new System.Drawing.Size(210, 45);
+            this.BtnLiLocal.TabIndex = 0;
+            this.BtnLiLocal.Text = "New Local License";
             // 
             // GBManageApp
             // 
@@ -216,28 +216,6 @@
             this.GBManageApp.TabIndex = 1;
             this.GBManageApp.Text = "Manage Applications";
             this.GBManageApp.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // BtnLocalDrivingLicApp
-            // 
-            this.BtnLocalDrivingLicApp.Animated = true;
-            this.BtnLocalDrivingLicApp.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnLocalDrivingLicApp.BorderRadius = 12;
-            this.BtnLocalDrivingLicApp.BorderThickness = 3;
-            this.BtnLocalDrivingLicApp.DisabledState.BorderColor = System.Drawing.Color.Transparent;
-            this.BtnLocalDrivingLicApp.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnLocalDrivingLicApp.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnLocalDrivingLicApp.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnLocalDrivingLicApp.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnLocalDrivingLicApp.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.BtnLocalDrivingLicApp.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
-            this.BtnLocalDrivingLicApp.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnLocalDrivingLicApp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnLocalDrivingLicApp.Location = new System.Drawing.Point(68, 85);
-            this.BtnLocalDrivingLicApp.Name = "BtnLocalDrivingLicApp";
-            this.BtnLocalDrivingLicApp.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.BtnLocalDrivingLicApp.Size = new System.Drawing.Size(457, 45);
-            this.BtnLocalDrivingLicApp.TabIndex = 1;
-            this.BtnLocalDrivingLicApp.Text = "Local License Applications";
             // 
             // BtnInterDrivingLicApp
             // 
@@ -261,6 +239,28 @@
             this.BtnInterDrivingLicApp.TabIndex = 2;
             this.BtnInterDrivingLicApp.Text = "International License Applications";
             // 
+            // BtnLocalDrivingLicApp
+            // 
+            this.BtnLocalDrivingLicApp.Animated = true;
+            this.BtnLocalDrivingLicApp.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnLocalDrivingLicApp.BorderRadius = 12;
+            this.BtnLocalDrivingLicApp.BorderThickness = 3;
+            this.BtnLocalDrivingLicApp.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.BtnLocalDrivingLicApp.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnLocalDrivingLicApp.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnLocalDrivingLicApp.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnLocalDrivingLicApp.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnLocalDrivingLicApp.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.BtnLocalDrivingLicApp.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.BtnLocalDrivingLicApp.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnLocalDrivingLicApp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnLocalDrivingLicApp.Location = new System.Drawing.Point(68, 85);
+            this.BtnLocalDrivingLicApp.Name = "BtnLocalDrivingLicApp";
+            this.BtnLocalDrivingLicApp.PressedColor = System.Drawing.Color.DodgerBlue;
+            this.BtnLocalDrivingLicApp.Size = new System.Drawing.Size(457, 45);
+            this.BtnLocalDrivingLicApp.TabIndex = 1;
+            this.BtnLocalDrivingLicApp.Text = "Local License Applications";
+            // 
             // GBDetainLicenses
             // 
             this.GBDetainLicenses.BorderRadius = 12;
@@ -276,6 +276,28 @@
             this.GBDetainLicenses.TabIndex = 2;
             this.GBDetainLicenses.Text = "Detain Licenses";
             this.GBDetainLicenses.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // BtnDetainLicese
+            // 
+            this.BtnDetainLicese.Animated = true;
+            this.BtnDetainLicese.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnDetainLicese.BorderRadius = 12;
+            this.BtnDetainLicese.BorderThickness = 3;
+            this.BtnDetainLicese.DisabledState.BorderColor = System.Drawing.Color.Transparent;
+            this.BtnDetainLicese.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BtnDetainLicese.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnDetainLicese.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BtnDetainLicese.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BtnDetainLicese.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
+            this.BtnDetainLicese.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
+            this.BtnDetainLicese.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
+            this.BtnDetainLicese.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.BtnDetainLicese.Location = new System.Drawing.Point(52, 151);
+            this.BtnDetainLicese.Name = "BtnDetainLicese";
+            this.BtnDetainLicese.PressedColor = System.Drawing.Color.DodgerBlue;
+            this.BtnDetainLicese.Size = new System.Drawing.Size(457, 45);
+            this.BtnDetainLicese.TabIndex = 3;
+            this.BtnDetainLicese.Text = "Detain License";
             // 
             // BtnReleaseDetainedLic
             // 
@@ -320,28 +342,6 @@
             this.BtnManageDetained.Size = new System.Drawing.Size(457, 45);
             this.BtnManageDetained.TabIndex = 1;
             this.BtnManageDetained.Text = "Manage Detained Licenses";
-            // 
-            // BtnDetainLicese
-            // 
-            this.BtnDetainLicese.Animated = true;
-            this.BtnDetainLicese.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnDetainLicese.BorderRadius = 12;
-            this.BtnDetainLicese.BorderThickness = 3;
-            this.BtnDetainLicese.DisabledState.BorderColor = System.Drawing.Color.Transparent;
-            this.BtnDetainLicese.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.BtnDetainLicese.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnDetainLicese.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.BtnDetainLicese.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.BtnDetainLicese.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(218)))), ((int)(((byte)(223)))));
-            this.BtnDetainLicese.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(230)))), ((int)(((byte)(237)))));
-            this.BtnDetainLicese.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.BtnDetainLicese.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.BtnDetainLicese.Location = new System.Drawing.Point(52, 151);
-            this.BtnDetainLicese.Name = "BtnDetainLicese";
-            this.BtnDetainLicese.PressedColor = System.Drawing.Color.DodgerBlue;
-            this.BtnDetainLicese.Size = new System.Drawing.Size(457, 45);
-            this.BtnDetainLicese.TabIndex = 3;
-            this.BtnDetainLicese.Text = "Detain License";
             // 
             // GBGeneralManager
             // 
@@ -401,6 +401,7 @@
             this.BtnManageApp.Size = new System.Drawing.Size(457, 45);
             this.BtnManageApp.TabIndex = 1;
             this.BtnManageApp.Text = "Manage Application Types";
+            this.BtnManageApp.Click += new System.EventHandler(this.BtnManageApp_Click);
             // 
             // CtrlMainApplication
             // 

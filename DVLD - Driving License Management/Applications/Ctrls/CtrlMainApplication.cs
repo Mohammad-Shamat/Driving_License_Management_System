@@ -16,5 +16,11 @@ namespace DVLD___Driving_License_Management.Applications.Ctrls
         {
             InitializeComponent();
         }
+
+        private void BtnManageApp_Click(object sender, EventArgs e)
+        {
+            FrmListApplicationTypes frmListApplicationTypes = new FrmListApplicationTypes();
+            frmListApplicationTypes.ShowDialog();
+        }
     }
 }
