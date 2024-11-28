@@ -32,20 +32,20 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblNoDataShow = new System.Windows.Forms.Label();
+            this.PBnoDatatoShow = new Guna.UI2.WinForms.Guna2PictureBox();
             this.LblCountRe = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.DGVApplicationTypes = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.LblTitle = new System.Windows.Forms.Label();
             this.CMSApplicationTypes = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
-            this.PBnoDatatoShow = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.BtnExit = new Guna.UI2.WinForms.Guna2Button();
             this.editApplicationTypeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblNoDataShow = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.LblTitle = new System.Windows.Forms.Label();
+            this.BtnExit = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PBnoDatatoShow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGVApplicationTypes)).BeginInit();
             this.CMSApplicationTypes.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PBnoDatatoShow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,6 +66,30 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(800, 788);
             this.guna2Panel1.TabIndex = 32;
+            // 
+            // lblNoDataShow
+            // 
+            this.lblNoDataShow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblNoDataShow.AutoSize = true;
+            this.lblNoDataShow.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoDataShow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.lblNoDataShow.Location = new System.Drawing.Point(274, 425);
+            this.lblNoDataShow.Name = "lblNoDataShow";
+            this.lblNoDataShow.Size = new System.Drawing.Size(222, 37);
+            this.lblNoDataShow.TabIndex = 46;
+            this.lblNoDataShow.Text = "No Data to show";
+            // 
+            // PBnoDatatoShow
+            // 
+            this.PBnoDatatoShow.Image = global::DVLD___Driving_License_Management.Properties.Resources.paper;
+            this.PBnoDatatoShow.ImageRotate = 0F;
+            this.PBnoDatatoShow.Location = new System.Drawing.Point(354, 465);
+            this.PBnoDatatoShow.Name = "PBnoDatatoShow";
+            this.PBnoDatatoShow.Size = new System.Drawing.Size(63, 53);
+            this.PBnoDatatoShow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PBnoDatatoShow.TabIndex = 45;
+            this.PBnoDatatoShow.TabStop = false;
             // 
             // LblCountRe
             // 
@@ -145,19 +169,6 @@
             this.DGVApplicationTypes.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.DGVApplicationTypes.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // LblTitle
-            // 
-            this.LblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblTitle.AutoSize = true;
-            this.LblTitle.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.LblTitle.Location = new System.Drawing.Point(229, 152);
-            this.LblTitle.Name = "LblTitle";
-            this.LblTitle.Size = new System.Drawing.Size(338, 37);
-            this.LblTitle.TabIndex = 32;
-            this.LblTitle.Text = "Manage Application Types";
-            // 
             // CMSApplicationTypes
             // 
             this.CMSApplicationTypes.BackColor = System.Drawing.Color.White;
@@ -176,16 +187,13 @@
             this.CMSApplicationTypes.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.CMSApplicationTypes.Size = new System.Drawing.Size(225, 52);
             // 
-            // PBnoDatatoShow
+            // editApplicationTypeToolStripMenuItem
             // 
-            this.PBnoDatatoShow.Image = global::DVLD___Driving_License_Management.Properties.Resources.paper;
-            this.PBnoDatatoShow.ImageRotate = 0F;
-            this.PBnoDatatoShow.Location = new System.Drawing.Point(354, 465);
-            this.PBnoDatatoShow.Name = "PBnoDatatoShow";
-            this.PBnoDatatoShow.Size = new System.Drawing.Size(63, 53);
-            this.PBnoDatatoShow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PBnoDatatoShow.TabIndex = 45;
-            this.PBnoDatatoShow.TabStop = false;
+            this.editApplicationTypeToolStripMenuItem.Image = global::DVLD___Driving_License_Management.Properties.Resources.browser;
+            this.editApplicationTypeToolStripMenuItem.Name = "editApplicationTypeToolStripMenuItem";
+            this.editApplicationTypeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.editApplicationTypeToolStripMenuItem.Text = "Edit Application Type";
+            this.editApplicationTypeToolStripMenuItem.Click += new System.EventHandler(this.editApplicationTypeToolStripMenuItem_Click);
             // 
             // guna2PictureBox1
             // 
@@ -197,6 +205,19 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 33;
             this.guna2PictureBox1.TabStop = false;
+            // 
+            // LblTitle
+            // 
+            this.LblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.LblTitle.AutoSize = true;
+            this.LblTitle.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
+            this.LblTitle.Location = new System.Drawing.Point(229, 152);
+            this.LblTitle.Name = "LblTitle";
+            this.LblTitle.Size = new System.Drawing.Size(338, 37);
+            this.LblTitle.TabIndex = 32;
+            this.LblTitle.Text = "Manage Application Types";
             // 
             // BtnExit
             // 
@@ -228,26 +249,6 @@
             this.BtnExit.TabIndex = 31;
             this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
-            // editApplicationTypeToolStripMenuItem
-            // 
-            this.editApplicationTypeToolStripMenuItem.Image = global::DVLD___Driving_License_Management.Properties.Resources.browser;
-            this.editApplicationTypeToolStripMenuItem.Name = "editApplicationTypeToolStripMenuItem";
-            this.editApplicationTypeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.editApplicationTypeToolStripMenuItem.Text = "Edit Application Type";
-            // 
-            // lblNoDataShow
-            // 
-            this.lblNoDataShow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblNoDataShow.AutoSize = true;
-            this.lblNoDataShow.Font = new System.Drawing.Font("Yu Gothic UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoDataShow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(55)))), ((int)(((byte)(77)))));
-            this.lblNoDataShow.Location = new System.Drawing.Point(274, 425);
-            this.lblNoDataShow.Name = "lblNoDataShow";
-            this.lblNoDataShow.Size = new System.Drawing.Size(222, 37);
-            this.lblNoDataShow.TabIndex = 46;
-            this.lblNoDataShow.Text = "No Data to show";
-            // 
             // FrmListApplicationTypes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -262,9 +263,9 @@
             this.Load += new System.EventHandler(this.FrmListApplicationTypes_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PBnoDatatoShow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DGVApplicationTypes)).EndInit();
             this.CMSApplicationTypes.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PBnoDatatoShow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 

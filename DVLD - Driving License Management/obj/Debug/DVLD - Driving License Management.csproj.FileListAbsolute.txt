@@ -109,3 +109,4 @@ C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Dr
 C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.Login.FrmLogin.resources
 C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.User.FrmUserSetting.resources
 C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.Applications.FrmListApplicationTypes.resources
+C:\Users\Moham\OneDrive\Desktop\DVLD\Driving_License_Management_System\DVLD - Driving License Management\obj\Debug\DVLD___Driving_License_Management.Applications.FrmEditApplicationType.resources

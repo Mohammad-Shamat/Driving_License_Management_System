@@ -55,6 +55,11 @@ namespace DVLD___Driving_License_Management.Applications
 
         }
 
-        
+        private void editApplicationTypeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmEditApplicationType frm = new FrmEditApplicationType((int)DGVApplicationTypes.CurrentRow.Cells[0].Value);
+            frm.ShowDialog();
+            FrmListApplicationTypes_Load(null, null);
+        }
     }
 }

@@ -48,7 +48,7 @@ namespace DVLD_Buisness
             float Fees = 0;
             if (ClsApplicationTypeData.GetApplicationTypeInfoByID(Id,ref Titel,ref Fees))
             {
-                return new ClsApplicationType();
+                return new ClsApplicationType(Id, Titel, Fees);
             }
             else
             {

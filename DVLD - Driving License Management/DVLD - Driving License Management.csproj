@@ -99,6 +99,12 @@
     <Compile Include="Applications\Ctrls\CtrlMainApplication.Designer.cs">
       <DependentUpon>CtrlMainApplication.cs</DependentUpon>
     </Compile>
+    <Compile Include="Applications\FrmEditApplicationType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Applications\FrmEditApplicationType.Designer.cs">
+      <DependentUpon>FrmEditApplicationType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Applications\FrmListApplicationTypes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -207,6 +213,9 @@
     <Compile Include="User\UserCtrls\CtrlUsersList.Designer.cs">
       <DependentUpon>CtrlUsersList.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Applications\FrmEditApplicationType.resx">
+      <DependentUpon>FrmEditApplicationType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Applications\FrmListApplicationTypes.resx">
       <DependentUpon>FrmListApplicationTypes.cs</DependentUpon>
     </EmbeddedResource>
@@ -407,6 +416,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\paper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feature.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
